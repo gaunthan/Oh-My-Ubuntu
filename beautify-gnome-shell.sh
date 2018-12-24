@@ -20,6 +20,11 @@ echo "If did, please run this script again after extension enabled, for configur
 gnome-shell-extension-tool -e user-theme
 gnome-shell-extension-tool -e dash-to-dock
 
+# Install and enable transparent topbar
+sudo apt install curl -y
+curl -sLf https://raw.githubusercontent.com/gaunthan/awesome-fedora-hacking/master/dynamic-panel-transparency.sh | bash
+
+
 # Setup theme and icons
 install_packages \
 	arc-theme \
