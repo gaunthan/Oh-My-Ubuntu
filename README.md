@@ -6,7 +6,7 @@ Run the following command on your terminal, everying will be done automatically 
 	sudo apt install curl -y
 	curl -sLf https://raw.githubusercontent.com/gaunthan/Oh-My-Ubuntu/master/once_for_all.sh | bash
 
-`once_for_all.sh` will call the following scripts to 
+`once_for_all.sh` will call the following scripts
 
 |script|function|
 |--|--|
@@ -14,7 +14,7 @@ Run the following command on your terminal, everying will be done automatically 
 |beautify_gnome_shell.sh|Enable user-theme to beautify your desktop (new themes, new wallpapers). And make your topbar, dock more awesome.|
 |enable_chinese_input.sh|No longer need to worry about how to input Chinese in other locale.|
 
-If you just need one of these scripts, feel free to call it directly, for example
+If you just need one of them, feel free to call it directly, for example
 
 	sudo apt install curl -y
 	curl -sLf https://raw.githubusercontent.com/gaunthan/Oh-My-Ubuntu/master/beautify_gnome_shell.sh | bash
