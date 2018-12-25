@@ -52,6 +52,7 @@ gsettings set org.gnome.shell.extensions.dash-to-dock click-action minimize-or-o
 gsettings set org.gnome.shell.extensions.dash-to-dock scroll-action cycle-windows
 gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM
 gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
+gsettings set org.gnome.shell.extensions.dash-to-dock dock-fixed false
 
 # Configure wallpapers
 gsettings set org.gnome.desktop.background picture-uri 'file:///usr/share/backgrounds/Spices_in_Athens_by_Makis_Chourdakis.jpg'
