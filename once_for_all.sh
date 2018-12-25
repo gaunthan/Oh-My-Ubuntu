@@ -8,4 +8,4 @@ sudo apt install curl -y
 # Run all the scripts, respectively.
 curl -sLf https://raw.githubusercontent.com/gaunthan/Oh-My-Ubuntu/master/setup_system.sh | bash
 curl -sLf https://raw.githubusercontent.com/gaunthan/Oh-My-Ubuntu/master/enable_chinese_input.sh | bash
-curl -sLf https://raw.githubusercontent.com/gaunthan/Oh-My-Ubuntu/master/beautify-gnome-shell.sh | bash
+curl -sLf https://raw.githubusercontent.com/gaunthan/Oh-My-Ubuntu/master/beautify_gnome_shell.sh | bash
