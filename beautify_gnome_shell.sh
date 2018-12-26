@@ -9,7 +9,7 @@ install_packages()
 
 # Install gnome-shell config tool
 install_packages \
-    gnome-shell-extensions
+    gnome-shell-extensions \
     gnome-tweak-tool
 
 # Enable extensions
