@@ -24,7 +24,6 @@ gnome-shell-extension-tool -e dash-to-dock
 sudo apt install curl -y
 curl -sLf https://raw.githubusercontent.com/gaunthan/awesome-fedora-hacking/master/dynamic-panel-transparency.sh | bash
 
-
 # Setup theme and icons
 install_packages \
 	arc-theme \
@@ -59,7 +58,6 @@ gsettings set org.gnome.desktop.background picture-uri 'file:///usr/share/backgr
 gsettings set org.gnome.desktop.screensaver picture-uri 'file:///usr/share/backgrounds/On_top_of_the_Rubihorn_by_Matthias_Niess.jpg'
 
 # Restart gnome-shell 
-#echo "Restarting gnome-shell to flush the configurations..."
-#echo "You may need to log out to make effective."
-#gnome-shell -r > /dev/null 2>&1 &
-echo "Please log out to make effective."
+echo "Restarting gnome-shell to flush the configurations..."
+echo "You may need to log out to make effective."
+gnome-shell -r > /dev/null 2>&1 &
