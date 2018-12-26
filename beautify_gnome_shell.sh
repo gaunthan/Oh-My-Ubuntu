@@ -59,6 +59,7 @@ gsettings set org.gnome.desktop.background picture-uri 'file:///usr/share/backgr
 gsettings set org.gnome.desktop.screensaver picture-uri 'file:///usr/share/backgrounds/On_top_of_the_Rubihorn_by_Matthias_Niess.jpg'
 
 # Restart gnome-shell 
-echo "Restarting gnome-shell to flush the configurations..."
-echo "You may need to log out to make effect."
-gnome-shell -r > /dev/null 2>&1 &
+#echo "Restarting gnome-shell to flush the configurations..."
+#echo "You may need to log out to make effective."
+#gnome-shell -r > /dev/null 2>&1 &
+echo "Please log out to make effective."
