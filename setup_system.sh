@@ -22,5 +22,3 @@ echo "Now You can use ssh '$USER@ip_of_this_host' to login this host"
 #
 sudo apt update
 sudo apt upgrade -y
-echo "Rebooting system to make effect..."
-sudo reboot
