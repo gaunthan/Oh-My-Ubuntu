@@ -12,6 +12,8 @@ sudo apt install fcitx fcitx-rime -y
 
 # Choosing fcitx as input method
 im-config -n fcitx
+# Add to startup
+mkdir -p ~/.config/autostart
 ln -sf /usr/share/applications/fcitx.desktop ~/.config/autostart/fcitx.desktop
 
 read -p "Please run fcitx-configtool to add rime manully. Added [y/n] ?" answer
