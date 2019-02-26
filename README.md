@@ -1,5 +1,5 @@
 # On-My-Ubuntu
-Try to make My Ubuntu 18.04 more awesome! :-D
+Try to make my Ubuntu 18.04 more awesome! :-D
 
 Run the following command on your terminal, everying will be done automatically for you!
 
